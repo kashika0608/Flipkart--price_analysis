@@ -38,4 +38,4 @@ Flipkart E-commerce Dataset — Kaggle (https://www.kaggle.com/datasets/atharvja
 Python — pandas, matplotlib, seaborn — in Google Colab
 
 ## Notebook
-Full code: [flipkart_analysis.ipynb](flipkart_analysis.ipynb)
+Full code:Flipkart_analysis.ipynb"
