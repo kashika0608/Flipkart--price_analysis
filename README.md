@@ -20,7 +20,6 @@ Flipkart E-commerce Dataset — Kaggle (https://www.kaggle.com/datasets/atharvja
 - Analyzed discount patterns by category, price distribution, price-vs-rating relationship, and brand pricing
 
 ## Key Insights
-## Key Insights
 
 - Automotive, Mobiles & Accessories, and Bags/Wallets/Belts see the steepest average discounts (48-54%), while categories like Home Decor and Footwear discount more conservatively (~36-37%) — suggesting higher-turnover or higher-competition categories rely more heavily on discounting. The catalog-wide average discount is ~40%.
 ![Average discount by category](discount_by_category.png)
