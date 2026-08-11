@@ -20,10 +20,19 @@ Flipkart E-commerce Dataset — Kaggle (https://www.kaggle.com/datasets/atharvja
 - Analyzed discount patterns by category, price distribution, price-vs-rating relationship, and brand pricing
 
 ## Key Insights
-- [insight 1 + discount chart]
-- [insight 2 + price distribution chart]
-- [insight 3 + price-vs-rating chart]
-- [insight 4 + brand pricing]
+## Key Insights
+
+- Automotive, Mobiles & Accessories, and Bags/Wallets/Belts see the steepest average discounts (48-54%), while categories like Home Decor and Footwear discount more conservatively (~36-37%) — suggesting higher-turnover or higher-competition categories rely more heavily on discounting. The catalog-wide average discount is ~40%.
+![Average discount by category](discount_by_category.png)
+
+- The majority of products are priced under ₹2,000, with a sharp peak around ₹800-1,000 — this is a budget-to-mid-range catalog overall, with a long tail of higher-priced outliers pulling the average up.
+![Retail price distribution](price_distribution.png)
+
+- Unlike the Zomato dataset (where cost and rating showed a real 0.38 correlation), Flipkart shows almost no relationship between price and rating (0.057 correlation). Products across all price points show ratings spanning the full 1-5 range, suggesting price is not a useful proxy for customer satisfaction on this platform. Note: only ~9% of products had a rating, so this should be read as directional rather than conclusive.
+![Discounted price vs rating](price_vs_rating.png)
+
+- The highest-priced brands are dominated by furniture (Durian, ~₹73,795 avg) and fine jewellery (Karatcraft, BlueStone, Radiant Bay, ₹34,000-37,000 avg) — both naturally high-ticket categories. The lowest-priced brands (Joyeria Milan, Junk, Galz4ever, all under ₹500) appear to be budget fashion/accessories. This split reflects category economics more than brand positioning — a fairer comparison would control for category.
+![Brand pricing comparison](brand_pricing.png)
 
 ## Tools
 Python — pandas, matplotlib, seaborn — in Google Colab
